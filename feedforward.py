@@ -17,7 +17,7 @@ writer = SummaryWriter('runs/mnist1')
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Hyper-parameters
-input_size = 784  # 28x28
+input_size = 784  # 28x28=784
 hidden_size = 500
 num_classes = 10
 num_epochs = 1
